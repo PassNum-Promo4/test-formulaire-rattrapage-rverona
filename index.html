@@ -9,6 +9,22 @@
 </head>
 <body>
   <div class="container">
+      <fieldset>
+          <legend>Informations personelles</legend>
+          Prénom* <input type="text" name="firstname" placeholder="Insérer votre prénom ici">
+          Nom*: <input type="text" name="name" placeholder="Insérer votre nom ici"><br>
+          Date de naissance* <input type="date" name="birthdate" placeholder="jj/mm/aaaa">
+        </fieldset>
+        Numéro du joueur (compris entre 9 et 99)<input id="playerNb" type="number">
+        <fieldset>
+          <legend>Liste des postes auxquels je peux évoluer</legend>
+          <input type="checkbox" name="position" value="defender"> Défenseur<br>
+          <input type="checkbox" name="position" value="midfielder"> Milieu<br>
+          <input type="checkbox" name="position" value="forward"> Attaquant<br>
+          <input type="submit" value="Obtenir des informations supplémentaires sur les postes">
+        </fieldset>
+        <input type="submit" value="Envoyer">
+        <p>*= Champs obligatoires</p>
   </div>
 </body>
 </html>
